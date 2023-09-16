@@ -1,8 +1,8 @@
 name: Test the PALINDROME portal
 
 on:
-    issues:
-        types: [closed]
+    push:
+      branches: [ "main" ]
 
 jobs:
   test:
